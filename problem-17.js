@@ -1,4 +1,4 @@
-// Write a function to check if an array is empty. The function should take a single argument, which is the array.
+// 7) Write a function to check if an array is empty. The function should take a single argument, which is the array.
 
 
 function isArrayEmpty(arr) {

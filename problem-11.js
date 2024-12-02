@@ -1,9 +1,9 @@
-// Write a function to find the length of a string. The function should take a single argument, which is the string.
+// 1) Write a function to convert Celsius to Fahrenheit.The function should take a single argument, which is the temperature in Celsius.
 // The answer is below:
 
-function stringLength(str) {
-    return str.length;
+function celsiusTofarenheit(celsius) {
+    return (celsius * 9/5) + 32 ;
 }
 
-console.log(stringLength("hello"));   // 5
-console.log(stringLength("world"));   // 5
+console.log(celsiusTofarenheit(0)); //32
+console.log(celsiusTofarenheit(25)); //77

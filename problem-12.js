@@ -1,9 +1,10 @@
-// Write a function to merge two arrays. The function should take two arguments, which are the arrays to merge.
+// 2) Write a function to check if a number is even. The function should take a single argument, which is the number to check.
 // The answer is below:
 
-function mergeArrays(arr1, arr2) {
-    return arr1.concat(arr2) ;
+
+function isEven(num) {
+    return num % 2 === 0;
 }
 
-console.log(mergeArrays([1, 2, 3], [4, 5, 6]));   // [1, 2, 3, 4, 5, 6]
-console.log(mergeArrays(["a", "b"], ["c", "d"]));   // ["a", "b", "c", "d"]
+console.log(isEven(4));  //true
+console.log(isEven(7));  //false

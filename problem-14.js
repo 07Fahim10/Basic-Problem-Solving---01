@@ -1,10 +1,9 @@
-// Write a function to get the first character of a string. The function should take a single argument, which is the array.
+//4) Write a function to find the smallest number in an array. The function should take a single argument, which is the array to search.
 // The answer is below:
 
-
-function getFirstCharacter(str) {
-    return str[0];
+function findSmallestNum(arr) {
+    return Math.min(...arr);
 }
 
-console.log(getFirstCharacter("hello"));   // "h"
-console.log(getFirstCharacter("world"));   // "w"
+console.log(findSmallestNum([3, 5, 1, 9]));  // 1
+console.log(findSmallestNum([-1, -5, 0, 10]));  //-5

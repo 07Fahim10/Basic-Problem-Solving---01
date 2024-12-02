@@ -1,4 +1,4 @@
-// Write a function to return the factorial of a number. the function should take a single argument, which is the number.
+//8)  Write a function to return the factorial of a number. the function should take a single argument, which is the number.
 // The answer is below:
 
 

@@ -1,11 +1,19 @@
-// Write a function to find the sum of all elements in an array. The function should take a single argument, which is the array.
+//5) Write a function to count the number of vowels in a string. The function should take a single argument, which is the string to search.
 // The answer is below:
 
+function countVowels(str) {
+    let vowels = 'aeiouAEIOU';
+    let count = 0;
 
-function sumArray(arr) {
-    return arr.reduce((array1, array2) => array1 + array2, 0);
+    for (let vowelCharacter of str) {
+        if (vowels.includes(vowelCharacter)) {
+            count++;
+        }
+    }
+
+    return count;
 }
 
-console.log(sumArray([1, 2, 3, 4]));   // 10
-console.log(sumArray([-1, -2, -3, -4]));   // -10
-console.log(sumArray([1.5, 2.5, 3.5]));   // 7.5
+
+console.log(countVowels("hello world"));   // 3
+console.log(countVowels("Javascript"));   // 3

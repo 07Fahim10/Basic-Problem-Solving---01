@@ -1,9 +1,9 @@
-// Write a function to get the last element of an array. The function should take a single argument, which is the array.
+// 3) Write a function to sum two numbers. The function should take two arguments, which are the numbers to sum.
 // The answer is below:
 
-function getLastElement(arr) {
-    return arr[2] ;
+function sum(a, b) {
+    return a + b ;
 }
 
-console.log(getLastElement([1, 2, 3]));   // 3
-console.log(getLastElement(["a", "b", "c"]));   // "c"
+console.log(sum(3, 4));  // 7
+console.log(sum(10, 20));  // 30

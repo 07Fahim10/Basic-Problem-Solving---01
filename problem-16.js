@@ -1,4 +1,4 @@
-// Write a function to get the first element of an array. The function should take a single argument, which is the array.
+// 6) Write a function to get the first element of an array. The function should take a single argument, which is the array.
 // The answer is below:
 
 function getFirstElement(arr) {
